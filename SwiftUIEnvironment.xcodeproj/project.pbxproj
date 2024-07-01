@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA63A53B2C331878003EBB4B /* LogLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA63A53A2C331878003EBB4B /* LogLayout.swift */; };
 		DA6417C02C326E450005B37D /* SwiftUIEnvironmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6417BF2C326E450005B37D /* SwiftUIEnvironmentApp.swift */; };
 		DA6417C22C326E450005B37D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6417C12C326E450005B37D /* ContentView.swift */; };
 		DA6417C42C326E470005B37D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6417C32C326E470005B37D /* Assets.xcassets */; };
 		DA6417C72C326E470005B37D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6417C62C326E470005B37D /* Preview Assets.xcassets */; };
+		DA6417CE2C327B5F0005B37D /* CustomComponentStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6417CD2C327B5F0005B37D /* CustomComponentStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA63A53A2C331878003EBB4B /* LogLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogLayout.swift; sourceTree = "<group>"; };
 		DA6417BC2C326E450005B37D /* SwiftUIEnvironment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIEnvironment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6417BF2C326E450005B37D /* SwiftUIEnvironmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIEnvironmentApp.swift; sourceTree = "<group>"; };
 		DA6417C12C326E450005B37D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DA6417C32C326E470005B37D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA6417C62C326E470005B37D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA6417CD2C327B5F0005B37D /* CustomComponentStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComponentStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				DA6417BF2C326E450005B37D /* SwiftUIEnvironmentApp.swift */,
 				DA6417C12C326E450005B37D /* ContentView.swift */,
+				DA6417CD2C327B5F0005B37D /* CustomComponentStyle.swift */,
+				DA63A53A2C331878003EBB4B /* LogLayout.swift */,
 				DA6417C32C326E470005B37D /* Assets.xcassets */,
 				DA6417C52C326E470005B37D /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA6417C22C326E450005B37D /* ContentView.swift in Sources */,
+				DA6417CE2C327B5F0005B37D /* CustomComponentStyle.swift in Sources */,
+				DA63A53B2C331878003EBB4B /* LogLayout.swift in Sources */,
 				DA6417C02C326E450005B37D /* SwiftUIEnvironmentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
